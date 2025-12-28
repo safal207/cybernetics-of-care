@@ -1,0 +1,29 @@
+name: Doc Bug
+description: Report an error or inconsistency in the docs
+title: "Docs bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: File path and section.
+      placeholder: docs/AHP-MVP.md — Minimal scenario
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: What is incorrect or unclear?
+      placeholder: Describe the problem succinctly.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+      description: Provide a minimal correction.
+      placeholder: Proposed wording or structural change.
+    validations:
+      required: false

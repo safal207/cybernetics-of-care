@@ -1,0 +1,21 @@
+name: Question
+description: Ask a question or request clarification
+title: "Question: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What do you want clarified?
+      placeholder: Ask one focused question.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Share any relevant context or assumptions.
+      placeholder: Why is this unclear?
+    validations:
+      required: false
