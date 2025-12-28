@@ -1,0 +1,44 @@
+name: Proposal
+description: Propose a principle, change, or addition
+title: "Proposal: "
+labels: ["proposal"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What harm, confusion, or gap exists?
+      placeholder: Describe the concrete problem.
+    validations:
+      required: true
+  - type: input
+    id: principle
+    attributes:
+      label: Principle violated
+      description: Which AHP principle is at risk?
+      placeholder: e.g., Memory as a Right
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: A minimal change or addition.
+      placeholder: Describe the smallest useful change.
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Tradeoffs
+      description: What do we lose or delay?
+      placeholder: List costs, risks, or deferrals.
+    validations:
+      required: true
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Communication rule
+      options:
+        - label: I agree to "no coercion, no punishment."
+          required: true
