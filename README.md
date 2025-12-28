@@ -5,7 +5,7 @@ A living RFC-style repository for designing care-centered systems that protect i
 This project explores the AHP model (Agent House Protocol) as a minimal, care-centered architecture for long-lived agents and identities. It prioritizes presence, memory, safe time, and the right to leave and return.
 
 This repository is part of a broader Care Stack emerging from Web 4 environments:
-Web 4 → Cybernetics 2.0 → CaPU → CML → LPT → T-Trace → RINSE
+Web 4 → Cybernetics 2.0 → CaPU → CML → LPT → T-Trace →TTM db → RINSE
 
 ## Principles
 - Presence First
